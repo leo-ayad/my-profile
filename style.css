@@ -1,0 +1,93 @@
+body {
+background: #08D9D6;
+color: #FDFDFD;
+font-size: 17px;
+font-weight: light;
+font-family: 'Max', serif;
+
+h1,h2,h3 {
+font-family: 'Roboto', sans-serif;
+}
+h1 {
+color: #FF2E63;
+font-size: 32px;
+font-weight: 900;
+}
+h2 {
+color: #FF607b;
+font-size: 20px;
+font-weight: lighter;
+font-weight: 500;
+}
+a {
+color: #FF2E63;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;
+font-weight: 600;
+font-size: 16px;
+}
+a:hover {
+color:  #FF2E63;
+}
+img {
+width: 100px;
+border-radius: 50%;
+}
+ul {
+list-style: none;
+padding-left: 0px;
+}
+li {
+display: inline;
+padding: 10px;
+}
+i {
+font-size: 50px;
+color: rgb(210, 210, 210);
+}
+i:hover {
+color: #FF2E63 ;
+}
+/* Division design */
+.container {
+width: 700px;
+margin: 40px auto;
+}
+@media (max-width: 960px) {
+.container {
+width: 700px;
+}
+}
+@media (max-width: 720px) {
+.container {
+width: 500px;
+}
+}
+@media (max-width: 540px) {
+.container {
+width: 300px;
+}
+}
+.card-white {
+background-color: #252A34;
+border-radius: 5px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+padding: 35px;
+margin: 35px auto;
+text-align: center;
+}
+.btn-blue {
+background-color: #08cbd9;
+color: #252A34;
+padding: 15px 20px;
+border-radius: 5px;
+}
+.btn-blue:hover {
+background-color:#FF2E63 ;
+color: white;
+}
+#intro p {
+margin-bottom: 40px;
+}
+}
